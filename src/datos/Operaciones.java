@@ -29,9 +29,9 @@ public class Operaciones {
 
         min = Math.min(termB, termD);
 
-        for (int i = 1; i < min; i++) {
-            if (termB % i == 0 && termD % i == 0) {
-                int mcd = i;
+        for (int c = 1; c < min; i++) {
+            if (termB % c == 0 && termD % c == 0) {
+                int mcd = c;
                 mcm = (termB * termD) / mcd;
 
             }
